@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/**Navegation Bar **/
+nav{
+    background-color: #F31632;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 65px;
+    margin-right: 0 5px;
+}
+nav h1 {
+    position: absolute;
+    display: inline-block;  
+    margin-left: 40%;
+    margin-top: 20px;
+    
+}
+
+nav ul li a {
+    color: #FFF;
+}
+body {
+    background-color: #565b66;
+}
+ 
+
+h1 {
+    color: #FFF; 
+} 
+
+
+/** Set border color **/
+#content {
+  
+    border-color: rgb(28, 192, 102);
+}
+
+.contenu {
+   
+    border-color: rgb(192, 15, 15);
+
+}
+
+/** Color of the font  **/
+
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    color: #FFF;
+    font-weight: lighter;
+}
+
+/**Button style **/
+.button1 {
+color: rgb(28, 192, 102);
+width: 50px;
+height: 30px; 
+border-style: solid;
+border-width: 5px;
+border-radius: 30px;
+display: inline-block;
+position:relative;
+background-color: green;
+color: #FFF;
+border-color: rgb(24, 153, 24);
+}
+
+/**Button style **/
+.button2 {
+ color:rgb(192, 15, 15);
+ width: 50px;
+ height: 30px; 
+ border-style: solid;
+ border-width: 5px;
+ border-radius: 30px;
+ display: inline-block;
+ position:relative;
+ background-color: red;
+ color: #FFF;
+ border-color: rgb(207, 49, 49);
+}
+
+/** Set table css  **/
+table {
+    border-collapse: collapse;
+    border-spacing: 1cm;
+    width: 700px; 
+    margin-top: 200px;
+  /**  margin-left: 500px; **/
+    height: 500px;
+    background-color: #222730;
+    padding: 10px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    border: 1px solid  white;
+    /** box-shadow: 5px 5px 15px #6f7a8b; **/
+}
+
+th, td {
+    padding: 8px;
+    text-align: left; 
+    border-bottom: 1px solid white;
+    
+}
+th {
+     background-color: #797f89;
+    color: white;
+    text-align: left;
+    
+}
+
+.left {
+    background-color: #797f89; 
+    color:#FFF;
+}
+
+.right {
+    background-color: #797f89;
+    color: #FFF;
+}
+
+/** images menu**/
+.img-item {
+    max-width: 24px;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-right: 8px;
+}
+
+img {
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    vertical-align: middle;
+    
+}
+
+/**Hover button**/
+img:hover{
+    background-color:  rgba(235, 231, 231, 0.404);
+}
+
+.button1:hover {
+    background-color: rgba(24, 153, 24, 0.733);
+}
+
+.button2:hover{
+    background-color: #f31634bd;
+}
+
+h1:hover{
+    background-color: rgba(235, 231, 231, 0.404);
+}
+
+a:hover{
+    background-color: rgba(235, 231, 231, 0.404);
+}
+
+/**Channels Link **/

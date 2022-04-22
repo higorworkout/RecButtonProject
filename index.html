@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="shortcut icon" href="assets/favicon.PNG" type="image/x-icon">
+    <title>Switch on/off REC</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <!-- <div class="container"> -->
+     <header >
+        
+         <nav>
+            <!-- <div class="nav-container"> -->
+             <a href="https://rec.band.com.br/" target="_blank"><img id="logo" src="assets/RECloud_LogoVermelho.png" width="150" height="70" alt="logo Rec"> </a>
+             <ul>
+                 <li><a href="#">Inicio</a></li>
+             </ul>
+             <h1>SWITCH</h1>
+           <!-- </div> -->
+        </nav>
+        
+    </header>
+
+    <section></section>
+     
+    <!--Channel Table-->
+    <table>
+       
+        <tr>
+            <th> <i class="img-item"> <img class="img-item" src="assets/broadcast-tower.webp"> </i>
+                 CHANNEL
+            </th>
+            <th> <i class="img-item"> </i><img class="img-item" src="assets/wifi.png"> </i>
+                 STATUS</th> 
+        </tr>
+        <tr>
+            <!--Band Live-->
+            <td class="left"><img class="img-item" src="assets/logo band.png"> <a href="https://rec.band.com.br/edition/2/7/aovivo" target="_blank">BAND-LIVE</a> </td>
+            <td class="right">
+            
+                <button  class="button1" onclick="idchannel()"> ON </button>
+                <button  class="button2"> OFF </button>
+            </td>
+            <!--Band Live-->
+        </tr>
+
+        <tr>
+            <!--Band -->
+            <td class="left"><img class="img-item" src="assets/logo band.png"><a href="https://rec.band.com.br/edition/2/7" target="_blank"> BAND </a> </td>
+            <td class="right">
+            
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            </td>
+            <!--Band -->
+        </tr>
+
+        <tr>
+            <!--Band news live-->
+             <td class="left"> <img class="img-item" src="assets/logo band news.png"><a href="https://rec.band.com.br/edition/2/26/aovivo" target="_blank"> BANDNEWS TV - LIVE </a></td>
+             <td class="right">
+                 <button  class="button1"> ON </button>
+                 <button  class="button2"> OFF </button>
+
+             </td>
+             <!--Band news live-->
+        </tr>
+        <tr>
+            <!--Bandnews-->
+            <td class="left"> <img class="img-item" src="assets/logo band news.png"><a href="https://rec.band.com.br/edition/2/26" target="_blank"> BANDNEWS TV </a></td>
+            <td class="right">
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            <!--Bandnews-->
+            </td>
+       </tr>
+        <tr>
+            <!--Bandsport live-->
+             <td class="left"> <img class="img-item" src="assets/logo band sports.png"><a href="https://rec.band.com.br/edition/2/27/aovivo" target="_blank"> BANDSPORTS - LIVE </a></td>
+             <td class="right">
+                <!--Button-->
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            <!--Band sport live-->
+             </td>
+        </tr>
+
+        <tr>
+            <!--Band sport-->
+            <td class="left"> <img class="img-item" src="assets/logo band sports.png"><a href="https://rec.band.com.br/edition/2/27" target="_blank"> BANDSPORTS </a></td>
+            <td class="right">
+               <!--Button-->
+               <button  class="button1"> ON </button>
+               <button  class="button2"> OFF </button>
+            <!--Band sport-->
+            </td>
+       </tr>
+
+        <tr>
+            <!--Terra viva live-->
+            <td class="left"> <img class="img-item" src="assets/logo terra viva.jpg"><a href="https://rec.band.com.br/edition/2/28/aovivo" target="_blank"> TERRA VIVA - LIVE </a></td>
+            <td class="right">
+                <!--Button-->
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            <!--Terra viva live-->
+            </td>
+            <tr>
+                <!--Terra viva-->
+                <td class="left"> <img class="img-item" src="assets/logo terra viva.jpg"><a href="https://rec.band.com.br/edition/2/28" target="_blank"> TERRA VIVA </a> </td>
+                <td class="right">
+                    <!--Button-->
+                    <button  class="button1"> ON </button>
+                    <button  class="button2"> OFF </button>
+                 <!--Terra viva-->
+                </td>
+
+        </tr>
+        <tr>
+            <!--Radio Bandeirantes Live-->
+            <td class="left"><img class="img-item" src="assets/logo radio bandeirantes.png"><a href="https://rec.band.com.br/edition/2/37/aovivo/cloud" target="_blank"> RÁDIO BANDEIRANTES FM - LIVE </a></td>
+            <td class="right">
+                <!--Button-->
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            <!--Radio Bandeirantes Live-->
+            </td>
+        </tr>
+        <tr>
+            <!--Radio Bandeirantes-->
+            <td class="left"><img class="img-item" src="assets/logo radio bandeirantes.png"><a href="https://rec.band.com.br/edition/2/37" target="_blank"> RÁDIO BANDEIRANTES FM </a></td>
+            <td class="right">
+                <!--Button-->
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            <!--Radio Bandeirantes-->
+            </td>
+        </tr>
+
+        <tr>
+            <!--Radio Bandeirantes fm live-->
+            <td class="left"><img class="img-item" src="assets/logo band news.png"><a href="https://rec.band.com.br/edition/2/38/aovivo/cloud" target="_blank"> RÁDIO BANDEIRANTES FM - LIVE </a></td>
+            <td class="right">
+                <!--Button-->
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+             <!--Radio Bandeirantes fm Live-->   
+            </td>
+
+        </tr>
+
+        <tr>
+            <!--Radio Bandeirantes fm-->
+            <td class="left"><img class="img-item" src="assets/logo band news.png"><a href="https://rec.band.com.br/edition/2/38" target="_blank"> RÁDIO BANDEIRANTES FM </a> </td>
+            <td class="right">
+                <!--Button-->
+                <button  class="button1"> ON </button>
+                <button  class="button2"> OFF </button>
+            <!--Radio Bandeirantes fm-->
+            </td>
+
+        </tr>
+    </table>
+    <p id="conteudo"></p>
+
+    <script src="event.js"></script>
+
+</body>
+</html>
